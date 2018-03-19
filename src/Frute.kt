@@ -11,5 +11,6 @@ class Frute(color:String, sabor:String, precio:Int){
 }
 
 fun main(args: Array<String>){
-    println("Hello world")
+    var manzana  = Frute(color = "Rojo",sabor = "Dulce",precio = 4);
+    println(manzana.color)
 }
