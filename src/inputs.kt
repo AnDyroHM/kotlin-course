@@ -1,8 +1,8 @@
 fun main(args: Array<String>){
+    println("Insert your name: ")
     var name = readLine()
-    var age = readLine()
-    var dep:String?
-    dep = "Software engineering"
-    println("name: ${name}")
-    println("age: ${age}")
+    println("Insert your age: ")
+    var age = readLine()!!.toInt()
+    println("Name: ${name}")
+    println("Age: ${age}")
 }
